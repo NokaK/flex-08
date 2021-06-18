@@ -1,0 +1,35 @@
+*{
+	margin:  0;
+	padding: 0;
+}
+ul {
+	list-style: none;
+}
+.header-block {
+	align-items: center; 
+	/*ვერტიკალური მდებარეობა*/
+	justify-content: space-between; 
+/*	ჰორიზონტალური მდებარეობა*/
+}
+
+.navbar-li {
+	margin:  0 10px;
+}
+.block-image {
+	width: 200px;
+}
+.block-wrapper {
+	flex-direction: row-reverse;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.block-wrapper p{
+	width:  500px;
+}
+.d-flex {
+	display: flex;
+}
+.red {
+	color:  red;
+}
